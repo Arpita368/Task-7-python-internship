@@ -16,17 +16,19 @@ Resize images in batch while maintaining the aspect ratio. This script allows yo
 ## Setup Instructions
 1. Install Python 3 if not already installed.
    
-3. Install Pillow library:
+2. Install Pillow library:
    ```bash
    pip install Pillow
 
-4. Place your images in a folder and update the path in the script:
+3. Place your images in a folder and update the path in the script:
 ```
 files = os.listdir(r'C:\path\to\your\images')
+```
 
 4. Set the desired new width in the script:
 ```
 resized_image = resize(im, 2100)
+```
 
 5.Run the script:
 ```
